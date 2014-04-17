@@ -1,0 +1,31 @@
+doctype 5
+html
+  head
+    meta(charset='utf-8')
+    title Ratchet template page
+    meta(name='viewport', content='initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    link(href='styles/libs.css', rel='stylesheet')
+    script(src='scripts/libs.js')
+  body
+    header.bar.bar-nav
+      h1.title Ratchet
+    .content
+      p.content-padded
+        | Thanks for downloading Ratchet. This is an example HTML page that's linked up to compiled Ratchet CSS and JS, has the proper meta tags and the HTML structure. Need some more help before you start filling this with your own content? Check out some Ratchet resources:
+      .card
+        ul.table-view
+          li.table-view-cell
+            a.navigate-right(href='#')
+              strong Ratchet documentation
+          li.table-view-cell
+            a.push-right(href='#')
+              strong Ratchet on Github
+          li.table-view-cell
+            a.push-right(href='#')
+              strong Ratchet Google group
+          li.table-view-cell
+            a.push-right(href='#')
+              strong Ratchet on Twitter
+
